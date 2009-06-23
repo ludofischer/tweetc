@@ -1,0 +1,5 @@
+You will need libcurl to be able to 
+build this program. Libcurl is available
+as a package in the majority of Linux distributions.
+
+Otherwise, it can be obtained at http://curl.haxx.se/

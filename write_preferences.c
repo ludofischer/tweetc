@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include "constants.h"
 
 int write_preferences(void) {
         char *filename = "preferences.txt";
-        char username_password[80]; 
+        char username_password[USER_PASSWORD_SIZE]; 
         FILE *fp = NULL;
 
         puts("Please enter your username and password, separated by a colon, like this: username:password");

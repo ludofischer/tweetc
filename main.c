@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 
         case 2:
             check_auth();
-            update_status();
+            update_status(argv[1]);
             break;
 
         default:
