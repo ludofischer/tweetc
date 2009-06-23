@@ -15,7 +15,6 @@ int get_friends_timeline(void) {
 
     if (curl) {
         curl_easy_setopt(curl, CURLOPT_URL, "http://twitter.com/statuses/friends_timeline.rss");
-        printf(username_password);
         curl_easy_setopt(curl, CURLOPT_USERPWD, username_password);
 
         res = curl_easy_perform(curl);
