@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include "check_auth.h"
+#include "write_preferences.h"
 
 int check_auth(void) {
-    FILE *fp;
+    FILE *fp = NULL;
+    int success = 0;
+
     puts("Checking authentication...");
     fp = fopen("preferences.txt", "r");
     if (fp == NULL) {
         perror("Unreadable preferences file");
-        return 1;
+         write_preferences();
     }
-    return 0;
+    
+    return success;
 }
