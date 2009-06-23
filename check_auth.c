@@ -10,7 +10,7 @@ int check_auth(void) {
     fp = fopen("preferences.txt", "r");
     if (fp == NULL) {
         perror("Unreadable preferences file");
-         write_preferences();
+        write_preferences();
     }
     
     return success;
