@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <curl/curl.h>
+#include "get_friends_timeline.h"
 
-int main(void) {
+int get_friends_timeline(void) {
     CURL *curl;
     CURLcode res;
 
