@@ -1,0 +1,5 @@
+* Better friends timeline output
+* Alert when no network connection
+* Refuse to post when status udate exceeds 140 characters; tell by how much
+it went over.
+* oauth authentication...

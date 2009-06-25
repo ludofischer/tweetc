@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "check_auth.h"
-#include "get_friends_timeline.h"
-#include "update_status.h"
+#include "authorization-password.h"
+#include "twitter-actions.h"
 
-int main(int argc, char *argv[]) {
+int
+main(int argc, char *argv[]) {
     switch(argc) {
         case 1:
             check_auth();

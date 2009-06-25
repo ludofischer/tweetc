@@ -1,8 +1,8 @@
 #include <curl/curl.h>
 #include "access_url.h"
-#include "constants.h"
 
-int access_url(char *username_password, char* url, char* post_data, int operation) { 
+int
+access_url(char *username_password, char* url, char* post_data, int operation) { 
     CURL *curl;
     CURLcode res;
 
