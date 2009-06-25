@@ -1,0 +1,7 @@
+#include "../twitter-actions.h"
+int main(void) {
+    char *message = "poazertoauiapozuiauezfhaeiuvenvoenvoenzovfnezaofnaeoigjnzepig iezhvncuephnriuchnazoiecoah$jnzefijcazoenficjazeorfiocjoapezriacpjozijcpoazijcpoaizjrecpoinazjrfazoiecjnaozirghearncupanzocfnorauhfnoacuhnfĉaozuhfncoazuehfncoauzehfnxoauzhefnaoizufehnazoufhnaozufhnaozufhnaozufhnaôzuehfoâzuefhnoaczufhnoazuefhncoazufhnuozrhfvubhbarhabzhfobaoẑfazoeufhbzaoiuhazbfuoihabzôieufhazoiufĥbcûzbhvcruozhtâourhnôzehcnoazuehrfoaczuehnxzao";
+
+   update_status(message);
+   return 0;
+}
