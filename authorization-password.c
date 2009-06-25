@@ -39,7 +39,7 @@ check_auth(void) {
 }
 
 int
-get_credentials(char *buffer, int length) {
+get_credentials(char *buffer) {
     char *p;
     FILE *fp = NULL;
 
@@ -49,7 +49,7 @@ get_credentials(char *buffer, int length) {
         return 1;
     }
 
-    fgets(buffer, length, fp);
+    fgets(buffer, USER_PASSWORD_SIZE + 1, fp);
     fclose(fp);
 
     if ((p = strchr(buffer, '\n')) != NULL) {

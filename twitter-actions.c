@@ -10,7 +10,7 @@ int
 get_friends_timeline(void) {
     char username_password[USER_PASSWORD_SIZE]; 
 
-    get_credentials(username_password, USER_PASSWORD_SIZE + 1);
+    get_credentials(username_password);
     
     access_url(username_password, "http://twitter.com/statuses/friends_timeline.xml", NULL, DO_GET);
 
@@ -31,7 +31,7 @@ update_status(char *message) {
 
         strncat(status_string, status_prefix, STATUS_PREFIX_LENGTH);
         strncat(status_string, encoded, strlen(status_string) - STATUS_PREFIX_LENGTH);
-        get_credentials(username_password, USER_PASSWORD_SIZE + 1);
+        get_credentials(username_password);
         access_url(username_password, "http://twitter.com/statuses/update.xml", status_string, DO_POST);
         free(status_string);
         free (encoded);
