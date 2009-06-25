@@ -30,7 +30,7 @@ update_status(char *message) {
         char *status_string = calloc(strlen(encoded) + strlen(status_prefix) + 1, sizeof(char));
 
         strncat(status_string, status_prefix, STATUS_PREFIX_LENGTH);
-        strncat(status_string, encoded, 420 - STATUS_PREFIX_LENGTH);
+        strncat(status_string, encoded, strlen(status_string) - STATUS_PREFIX_LENGTH);
         get_credentials(username_password, USER_PASSWORD_SIZE + 1);
         access_url(username_password, "http://twitter.com/statuses/update.xml", status_string, DO_POST);
         free(status_string);
