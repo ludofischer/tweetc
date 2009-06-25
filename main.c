@@ -20,5 +20,8 @@ main(int argc, char *argv[]) {
             return 1;
     }
 
+    printf("WARNING: IN ITS CURRENT STATE, THIS PROGRAM IS UNSAFE \
+\nFOR THE PRIVACY OF YOUR TWITTER ACCOUNT.\n");
+
     return 0;
 }
