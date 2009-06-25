@@ -57,4 +57,3 @@ get_credentials(char *buffer) {
     }
     return 0;
 }
-
