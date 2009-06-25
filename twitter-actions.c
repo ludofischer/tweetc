@@ -6,6 +6,8 @@
 #include "url_encode.h"
 #include "twitter-actions.h"
 
+#define STATUS_UPDATE_URL "https://twitter.com/statuses/update.json"
+#define FRIENDS_TIMELINE_URL "https://twitter.com/statuses/friends_timeline.json"
 
 static size_t
 message_extra_length(char *message) {
@@ -31,7 +33,7 @@ get_friends_timeline(void) {
 
     get_credentials(username_password);
     
-    access_url(username_password, "http://twitter.com/statuses/friends_timeline.xml", NULL, DO_GET);
+    access_url(username_password, FRIENDS_TIMELINE_URL, NULL, DO_GET);
 
     return 0;
 }
@@ -46,7 +48,7 @@ update_status(char *message) {
     } else { 
         get_credentials(username_password);
         message = prepare_message(message); 
-        access_url(username_password, "http://twitter.com/statuses/update.xml", message, DO_POST);
+        access_url(username_password, STATUS_UPDATE_URL, message, DO_POST);
         free(message);
 
         printf("Updating status...\n");
