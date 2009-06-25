@@ -1,7 +1,8 @@
 #include <curl/curl.h>
+#include <stdio.h>
 #include "access_url.h"
 
-int
+void
 access_url(char *username_password, char* url, char* post_data, int operation) { 
     CURL *curl;
     CURLcode res;
@@ -22,7 +23,8 @@ access_url(char *username_password, char* url, char* post_data, int operation) {
     }
 
     curl_global_cleanup();
-
-    return 0;
+    if (res) {
+        perror("Sorry! Could not connect to twitter.com");
+    }
 }
 
