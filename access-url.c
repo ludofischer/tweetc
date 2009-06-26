@@ -3,7 +3,7 @@
 #include "access-url.h"
 
 void
-access_url(char *username_password, char* url, char* post_data, int operation) { 
+access_url(char *username_password, const char* url, char* post_data, int operation) { 
     CURL *curl;
     CURLcode res;
 

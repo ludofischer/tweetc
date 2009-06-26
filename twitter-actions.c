@@ -6,9 +6,6 @@
 #include "url-encode.h"
 #include "twitter-actions.h"
 
-#define STATUS_UPDATE_URL "https://twitter.com/statuses/update.json"
-#define FRIENDS_TIMELINE_URL "https://twitter.com/statuses/friends_timeline.json"
-
 static size_t
 message_extra_length(char *message) {
     return strlen(message) - MAX_TWEET_LENGTH;
@@ -29,17 +26,19 @@ prepare_message(char *message) {
 
 int
 get_friends_timeline(void) {
+    const char* friends_timeline_url = "https://twitter.com/statuses/friends_timeline.xml";
     char username_password[USER_PASSWORD_SIZE]; 
 
     get_credentials(username_password);
     
-    access_url(username_password, FRIENDS_TIMELINE_URL, NULL, DO_GET);
+    access_url(username_password, friends_timeline_url, NULL, DO_GET);
 
     return 0;
 }
 
 int
 update_status(char *message) {
+    const char* status_update_url = "https://twitter.com/statuses/update.xml";
     char username_password[USER_PASSWORD_SIZE];
     size_t message_excess;
     if ((message_excess = message_extra_length(message))  > 0) {
@@ -48,7 +47,7 @@ update_status(char *message) {
     } else { 
         get_credentials(username_password);
         message = prepare_message(message); 
-        access_url(username_password, STATUS_UPDATE_URL, message, DO_POST);
+        access_url(username_password, status_update_url, message, DO_POST);
         free(message);
 
         printf("Updating status...\n");
