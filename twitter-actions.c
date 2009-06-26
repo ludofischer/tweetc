@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "authorization-password.h"
-#include "access_url.h"
-#include "url_encode.h"
+#include "access-url.h"
+#include "url-encode.h"
 #include "twitter-actions.h"
 
 #define STATUS_UPDATE_URL "https://twitter.com/statuses/update.json"

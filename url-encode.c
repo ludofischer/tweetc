@@ -1,7 +1,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "url_encode.h"
+#include "url-encode.h"
 
 /* Should be correct by RFC 3986,
  * http://www.ietf.org/rfc/rfc3986.txt
