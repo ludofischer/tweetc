@@ -3,46 +3,39 @@
 #include <string.h>
 #include <libxml/parser.h>
 
-typedef struct MyContext_ {
-    int state;
-    char *info;
-} MyContext;
+#define PRINT 1
+#define NO_PRINT 2
 
 static void
 my_start_element(void *ctx, const xmlChar *name, const xmlChar **attrs) {
-    MyContext *con = ctx;
-    char *my_name = (char *)name;
-    if (!strcmp(my_name, "fruit") || !strcmp(my_name, "dessert")) {
-    con->state = 1;
+    int *state = ctx;
+    if (xmlStrEqual(name, (const xmlChar *)"fruit") || xmlStrEqual(name, (const xmlChar *) "dessert")) {
+    *state = PRINT;
     }
 }
 
 static void
 my_characters(void *ctx, const xmlChar *ch, int len) {
-    MyContext *con =  ctx;
-    char *my_ch = (char *) ch; 
-    if (con->state == 1) { 
-        con->info = malloc(strlen(my_ch) + 1);
-        strncpy(con->info, my_ch, strlen(my_ch));
+    int *state =  ctx;
+    if (*state == PRINT) { 
+        xmlChar *sub = xmlStrsub(ch, 0, len);
+        puts((char *) sub);
     } 
 }
 
 static void
 my_end_element(void *ctx, const xmlChar *name) {
-    MyContext *con = ctx;
-    if (con->state == 1) {
-        puts(con->info);
-    }
-    con->state = 2;
+    int *state = ctx;
+    *state = NO_PRINT;
 }
 
 int
 main(void) {
-    MyContext con;
+    int state = NO_PRINT;
     xmlSAXHandler handler = 
     { .characters = my_characters,
       .startElement = my_start_element,
       .endElement = my_end_element};
-    xmlSAXUserParseFile(&handler, &con, "test.xml");
+    xmlSAXUserParseFile(&handler, &state, "test.xml");
     return 0;
 }
