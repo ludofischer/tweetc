@@ -1,46 +1,48 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <libxml/parser.h>
 
-typedef struct my_context_ {
+typedef struct MyContext_ {
     int state;
-    char *status_info;
-} my_context;
-
-static void
-my_start_document(void *ctx) {
-    ctx = malloc(sizeof(my_context)); 
-}
+    char *info;
+} MyContext;
 
 static void
 my_start_element(void *ctx, const xmlChar *name, const xmlChar **attrs) {
-    printf("Element started: %s\n", name);
-}
-
-static void
-my_characters(void *ctx, const xmlChar *ch, int len) {
-    if (ctx) {
+    MyContext *con = ctx;
+    char *my_name = (char *)name;
+    if (!strcmp(my_name, "fruit") || !strcmp(my_name, "dessert")) {
+    con->state = 1;
     }
 }
 
 static void
-my_end_element(void *ctx, const xmlChar *name) {
+my_characters(void *ctx, const xmlChar *ch, int len) {
+    MyContext *con =  ctx;
+    char *my_ch = (char *) ch; 
+    if (con->state == 1) { 
+        con->info = malloc(strlen(my_ch) + 1);
+        strncpy(con->info, my_ch, strlen(my_ch));
+    } 
 }
 
 static void
-my_end_document(void *ctx) {
-    puts("Document ended");
-    free(ctx);
+my_end_element(void *ctx, const xmlChar *name) {
+    MyContext *con = ctx;
+    if (con->state == 1) {
+        puts(con->info);
+    }
+    con->state = 2;
 }
 
 int
 main(void) {
+    MyContext con;
     xmlSAXHandler handler = 
     { .characters = my_characters,
-      .startDocument = my_start_document,
-      .endDocument = my_end_document,
       .startElement = my_start_element,
       .endElement = my_end_element};
-    xmlSAXUserParseFile(&handler, NULL, "test.xml");
+    xmlSAXUserParseFile(&handler, &con, "test.xml");
     return 0;
 }
