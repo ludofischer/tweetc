@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 #include <libxml/parser.h>
 
@@ -9,7 +8,10 @@
 static void
 my_start_element(void *ctx, const xmlChar *name, const xmlChar **attrs) {
     int *state = ctx;
-    if (xmlStrEqual(name, (const xmlChar *)"fruit") || xmlStrEqual(name, (const xmlChar *) "dessert")) {
+    if (
+        xmlStrEqual(name, (const xmlChar *)"text") 
+        || xmlStrEqual(name, (const xmlChar *)"name") 
+        || xmlStrEqual(name, (const xmlChar *) "created_at")) {
     *state = PRINT;
     }
 }
