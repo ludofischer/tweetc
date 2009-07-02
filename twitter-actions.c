@@ -26,19 +26,17 @@ prepare_message(char *message) {
 
 int
 get_friends_timeline(void) {
-    const char* friends_timeline_url = "https://twitter.com/statuses/friends_timeline.xml";
     char username_password[USER_PASSWORD_SIZE]; 
 
     get_credentials(username_password);
     
-    access_url(username_password, friends_timeline_url, NULL, DO_GET);
+    access_url(username_password, NULL, FRIENDS_TIMELINE);
 
     return 0;
 }
 
 int
 update_status(char *message) {
-    const char* status_update_url = "https://twitter.com/statuses/update.xml";
     char username_password[USER_PASSWORD_SIZE];
     size_t message_excess;
     if ((message_excess = message_extra_length(message))  > 0) {
@@ -47,7 +45,7 @@ update_status(char *message) {
     } else { 
         get_credentials(username_password);
         message = prepare_message(message); 
-        access_url(username_password, status_update_url, message, DO_POST);
+        access_url(username_password, message, UPDATE_STATUS);
         free(message);
 
         printf("Updating status...\n");

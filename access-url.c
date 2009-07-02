@@ -31,10 +31,10 @@ access_url(char *username_password, char* post_data, int operation) {
     curl = curl_easy_init();
 
     if (curl) {
-        if (operation == DO_POST) {
+        if (operation == UPDATE_STATUS) {
             init_update(curl, username_password, post_data);
         }
-        if (operation == DO_GET) {
+        if (operation == FRIENDS_TIMELINE) {
             init_friends_timeline(curl, username_password);
         }
         res = curl_easy_perform(curl);

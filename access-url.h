@@ -1,8 +1,8 @@
 #ifndef ACCESS_URL_h
 #define ACCESS_URL_h
 
-#define DO_GET 1
-#define DO_POST 2
+#define FRIENDS_TIMELINE 1
+#define UPDATE_STATUS 2
 
 void access_url(char*, char*, int);
 #endif
