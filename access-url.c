@@ -2,8 +2,28 @@
 #include <stdio.h>
 #include "access-url.h"
 
+static int
+init_update(CURL *curl, char *username_password, char *status_update) {
+        CURLcode res;
+    const char *status_update_url = "https://twitter.com/statuses/update.xml";
+        res = curl_easy_setopt(curl, CURLOPT_URL, status_update_url);
+        res = curl_easy_setopt(curl, CURLOPT_USERPWD, username_password);
+        res = curl_easy_setopt(curl, CURLOPT_POST, 1);
+        res =curl_easy_setopt(curl, CURLOPT_POSTFIELDS, status_update);
+        return 0;
+}
+
+static int
+init_friends_timeline(CURL *curl, char *username_password) {
+    CURLcode res;
+    const char *friends_timeline_url = "https://twitter.com/statuses/friends_timeline.xml";
+    res = curl_easy_setopt(curl, CURLOPT_URL, friends_timeline_url);
+    res = curl_easy_setopt(curl, CURLOPT_USERPWD, username_password);
+    return 0;
+}
+    
 void
-access_url(char *username_password, const char* url, char* post_data, int operation) { 
+access_url(char *username_password, char* post_data, int operation) { 
     CURL *curl;
     CURLcode res;
 
@@ -11,11 +31,11 @@ access_url(char *username_password, const char* url, char* post_data, int operat
     curl = curl_easy_init();
 
     if (curl) {
-        curl_easy_setopt(curl, CURLOPT_URL, url);
-        curl_easy_setopt(curl, CURLOPT_USERPWD, username_password);
         if (operation == DO_POST) {
-            curl_easy_setopt(curl, CURLOPT_POST, 1);
-            curl_easy_setopt(curl, CURLOPT_POSTFIELDS, post_data);
+            init_update(curl, username_password, post_data);
+        }
+        if (operation == DO_GET) {
+            init_friends_timeline(curl, username_password);
         }
         res = curl_easy_perform(curl);
 
@@ -23,7 +43,7 @@ access_url(char *username_password, const char* url, char* post_data, int operat
     }
 
     curl_global_cleanup();
-    if (res) {
+    if (res != CURLE_OK) {
         perror("Sorry! Could not connect to twitter.com");
     }
 }
