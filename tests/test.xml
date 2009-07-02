@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Sat Jun 27 05:10:38 +0000 2009</created_at>
+  <id>2355452411</id>
+  <text>This is an amazing, massive map of teh internets. http://flic.kr/p/6cgSMQ (made of 32,136,320 pixels)</text>
+  <source>&lt;a href=&quot;http://www.atebits.com/&quot;&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>B Restaurant &amp; Bar</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17772</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2769</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7437</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 27 03:18:48 +0000 2009</created_at>
+  <id>2354324112</id>
+  <text>This is a fun illustration of me and @ev by Kate Bingaman-Burt http://bit.ly/S4Nyt</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>13</id>
+    <name>Biz Stone</name>
+    <screen_name>biz</screen_name>
+    <location>Berkeley, CA</location>
+    <description>Co-founder of Twitter, Inc.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/58660087/biz_stone_normal.png</profile_image_url>
+    <url>http://www.bizstone.com</url>
+    <protected>false</protected>
+    <followers_count>802393</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>228</friends_count>
+    <created_at>Tue Mar 21 20:51:43 +0000 2006</created_at>
+    <favourites_count>501</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3390</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>true</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 27 02:58:22 +0000 2009</created_at>
+  <id>2354095267</id>
+  <text>RT @wikileaks: Air France knew about air bus problems since September 2008. We will release reports soon. Contact us for an exclusive.</text>
+  <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6141832</id>
+    <name>Clay Shirky</name>
+    <screen_name>cshirky</screen_name>
+    <location>New York</location>
+    <description>Bald. Unreliable. Easily distracte</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/264788581/Picture_3_normal.png</profile_image_url>
+    <url>http://www.Shirky.com</url>
+    <protected>false</protected>
+    <followers_count>22216</followers_count>
+    <profile_background_color>9E9E9E</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>163</friends_count>
+    <created_at>Fri May 18 16:25:33 +0000 2007</created_at>
+    <favourites_count>41</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3410986/ship.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1214</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 27 01:01:51 +0000 2009</created_at>
+  <id>2352801302</id>
+  <text>High school friends gone. Kids in bed. Still 103&#176; outside at 8pm. Now proofing book layouts. Strange having my MN and OK realities collide.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>14335160</id>
+    <name>Kristina Halvorson</name>
+    <screen_name>halvorson</screen_name>
+    <location>Minneapolis, MN</location>
+    <description>Content strategist at large. Author of Content Strategy for the Web. President of Brain Traffic. Also, sassy.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/83494421/brains_061-4_normal.jpg</profile_image_url>
+    <url>http://www.braintraffic.com</url>
+    <protected>false</protected>
+    <followers_count>2791</followers_count>
+    <profile_background_color>324319</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>004beb</profile_link_color>
+    <profile_sidebar_fill_color>ffffff</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+    <friends_count>238</friends_count>
+    <created_at>Tue Apr 08 19:20:23 +0000 2008</created_at>
+    <favourites_count>162</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/4412634/earthypebbles.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2371</statuses_count>
+    <notifications></notifications>
+    <verified>false</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 27 00:26:28 +0000 2009</created_at>
+  <id>2352404163</id>
+  <text>22,784 Diggs so far: http://bit.ly/6pVa9
+ #ripkop</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>Apple Store San Francisco</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17771</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2769</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7435</statuses_count>
+    <notifications></notifications>
+    <verified>false</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Sat Jun 27 00:19:16 +0000 2009</created_at>
+  <id>2352322733</id>
+  <text>RT @m3mnoch: loosely-coupled social activity joins ftw! -  http://bit.ly/zZG5Q #activitystreams #diso</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>Apple Store San Francisco</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17771</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2769</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7434</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 23:52:57 +0000 2009</created_at>
+  <id>2352015668</id>
+  <text>Going to see Robert Bly tonight http://bit.ly/w30Qc Haven't seen Robert since he did performance produced by @lighttouch in late 70s</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>2384071</id>
+    <name>Tim O'Reilly</name>
+    <screen_name>timoreilly</screen_name>
+    <location>Sebastopol, CA</location>
+    <description>Founder and CEO, O'Reilly Media. Watching the alpha geeks, sharing their stories, helping the future unfold.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/273666684/green_7699_Twitter_crop_normal.jpg</profile_image_url>
+    <url>http://radar.oreilly.com</url>
+    <protected>false</protected>
+    <followers_count>653412</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>559</friends_count>
+    <created_at>Tue Mar 27 01:14:05 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>12600</utc_offset>
+    <time_zone>Tehran</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3587880/notes.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>7349</statuses_count>
+    <notifications>false</notifications>
+    <verified>true</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 23:51:00 +0000 2009</created_at>
+  <id>2351993248</id>
+  <text>Oh look, Facebook implements the "Chris Messina, Pornographer of Web 2.0" feature! http://tr.im/pixelcloud</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>Apple Store San Francisco</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17771</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2769</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7433</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 23:46:17 +0000 2009</created_at>
+  <id>2351937885</id>
+  <text>RT @joulee: Facebook Design Page: http://www.facebook.com/design</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>Apple Store San Francisco</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17770</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2769</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7432</statuses_count>
+    <notifications></notifications>
+    <verified>false</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 22:44:59 +0000 2009</created_at>
+  <id>2351177154</id>
+  <text>RT @nytimes: A Political Wife&#8217;s Tough Stance Strikes a Chord http://bit.ly/uFP8f</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>2384071</id>
+    <name>Tim O'Reilly</name>
+    <screen_name>timoreilly</screen_name>
+    <location>Sebastopol, CA</location>
+    <description>Founder and CEO, O'Reilly Media. Watching the alpha geeks, sharing their stories, helping the future unfold.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/273666684/green_7699_Twitter_crop_normal.jpg</profile_image_url>
+    <url>http://radar.oreilly.com</url>
+    <protected>false</protected>
+    <followers_count>652985</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>559</friends_count>
+    <created_at>Tue Mar 27 01:14:05 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>12600</utc_offset>
+    <time_zone>Tehran</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3587880/notes.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>7348</statuses_count>
+    <notifications></notifications>
+    <verified>true</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 20:40:27 +0000 2009</created_at>
+  <id>2349568457</id>
+  <text>Whats happening to Guardian Council's earlier promise to re-count 10% of the votes at random? http://bit.ly/SOfeX #iranelection</text>
+  <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6141832</id>
+    <name>Clay Shirky</name>
+    <screen_name>cshirky</screen_name>
+    <location>New York</location>
+    <description>Bald. Unreliable. Easily distracte</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/264788581/Picture_3_normal.png</profile_image_url>
+    <url>http://www.Shirky.com</url>
+    <protected>false</protected>
+    <followers_count>22191</followers_count>
+    <profile_background_color>9E9E9E</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>162</friends_count>
+    <created_at>Fri May 18 16:25:33 +0000 2007</created_at>
+    <favourites_count>41</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3410986/ship.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1213</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 20:27:43 +0000 2009</created_at>
+  <id>2349395837</id>
+  <text>Protesters tortured to get &quot;confessions&quot; that the uprising is foreign plot against the regime http://bit.ly/ATXmt #iranelection</text>
+  <source>&lt;a href=&quot;http://www.tweetdeck.com/&quot;&gt;TweetDeck&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6141832</id>
+    <name>Clay Shirky</name>
+    <screen_name>cshirky</screen_name>
+    <location>New York</location>
+    <description>Bald. Unreliable. Easily distracte</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/264788581/Picture_3_normal.png</profile_image_url>
+    <url>http://www.Shirky.com</url>
+    <protected>false</protected>
+    <followers_count>22189</followers_count>
+    <profile_background_color>9E9E9E</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>162</friends_count>
+    <created_at>Fri May 18 16:25:33 +0000 2007</created_at>
+    <favourites_count>41</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3410986/ship.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1212</statuses_count>
+    <notifications></notifications>
+    <verified>false</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 20:07:55 +0000 2009</created_at>
+  <id>2349129136</id>
+  <text>So weird... imeem will be deleting all user-uploaded photos &amp; videos on June 30: http://bit.ly/IrEiy (via @cshirky) #datafail</text>
+  <source>&lt;a href=&quot;http://www.atebits.com/&quot;&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>Apple Store San Francisco</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17771</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2769</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7431</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 19:57:53 +0000 2009</created_at>
+  <id>2348992497</id>
+  <text>imeem deleting all user-provided videos, without even a download-to-save option, on June 30: http://bit.ly/IrEiy (via @mizuko)</text>
+  <source>&lt;a href="http://www.tweetdeck.com/"&gt;TweetDeck&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6141832</id>
+    <name>Clay Shirky</name>
+    <screen_name>cshirky</screen_name>
+    <location>New York</location>
+    <description>Bald. Unreliable. Easily distracte</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/264788581/Picture_3_normal.png</profile_image_url>
+    <url>http://www.Shirky.com</url>
+    <protected>false</protected>
+    <followers_count>22184</followers_count>
+    <profile_background_color>9E9E9E</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>161</friends_count>
+    <created_at>Fri May 18 16:25:33 +0000 2007</created_at>
+    <favourites_count>41</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3410986/ship.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1211</statuses_count>
+    <notifications></notifications>
+    <verified>false</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 19:26:12 +0000 2009</created_at>
+  <id>2348568534</id>
+  <text>whether or not brains have changed, I think google - and attitudes towards how to access/find information - have changed things? #edmedia</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>7129072</id>
+    <name>Tony Hirst</name>
+    <screen_name>psychemedia</screen_name>
+    <location>UK</location>
+    <description>OU academic, mashup artist; Isle of WIght resident</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/53959414/rss_globe_normal.png</profile_image_url>
+    <url>http://ouseful.info</url>
+    <protected>false</protected>
+    <followers_count>1386</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>374</friends_count>
+    <created_at>Thu Jun 28 11:37:39 +0000 2007</created_at>
+    <favourites_count>78</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/2508031/rss_globe.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>5737</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>true</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 19:14:45 +0000 2009</created_at>
+  <id>2348411678</id>
+  <text>RT @mkapor Facebook inexorably closing in on duplicating Twitter's open following model http://bit.ly/5qbWx Look out, Ev and Biz.</text>
+  <source>&lt;a href="http://twidroid.com"&gt;twidroid&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6141832</id>
+    <name>Clay Shirky</name>
+    <screen_name>cshirky</screen_name>
+    <location>New York</location>
+    <description>Bald. Unreliable. Easily distracte</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/264788581/Picture_3_normal.png</profile_image_url>
+    <url>http://www.Shirky.com</url>
+    <protected>false</protected>
+    <followers_count>22178</followers_count>
+    <profile_background_color>9E9E9E</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>161</friends_count>
+    <created_at>Fri May 18 16:25:33 +0000 2007</created_at>
+    <favourites_count>41</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3410986/ship.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>1210</statuses_count>
+    <notifications></notifications>
+    <verified>false</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 18:22:38 +0000 2009</created_at>
+  <id>2347671964</id>
+  <text>RT @urbanairship: Signups now open for iPhone push notification service &#8212; pricing details released: http://bacn.me/897</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>Apple Store San Francisco</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17771</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2768</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7429</statuses_count>
+    <notifications></notifications>
+    <verified>false</verified>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 18:15:36 +0000 2009</created_at>
+  <id>2347575861</id>
+  <text>RT @stereogab: 300 extra pgs were added to cap+trade bill overnight. Tell our reps that we need time to read'em! http://readthebill.org/call</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>1186</id>
+    <name>Chris Messina</name>
+    <screen_name>chrismessina</screen_name>
+    <location>Apple Store San Francisco</location>
+    <description>Sasquatch.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/270299871/unverified_normal.png</profile_image_url>
+    <url>http://factoryjoe.com/</url>
+    <protected>false</protected>
+    <followers_count>17771</followers_count>
+    <profile_background_color>544836</profile_background_color>
+    <profile_text_color>444</profile_text_color>
+    <profile_link_color>fa0000</profile_link_color>
+    <profile_sidebar_fill_color>FFF9E7</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>868686</profile_sidebar_border_color>
+    <friends_count>1512</friends_count>
+    <created_at>Sun Jul 16 06:53:48 +0000 2006</created_at>
+    <favourites_count>2768</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5234623/bg_med.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>7428</statuses_count>
+    <notifications>false</notifications>
+    <verified>false</verified>
+    <following>true</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 17:57:57 +0000 2009</created_at>
+  <id>2347322576</id>
+  <text>Private company claims ownership of GPS-generated bus arrival times in SF, tries to block iPhone app http://bit.ly/yI1LW via @naypinya email</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>2384071</id>
+    <name>Tim O'Reilly</name>
+    <screen_name>timoreilly</screen_name>
+    <location>Sebastopol, CA</location>
+    <description>Founder and CEO, O'Reilly Media. Watching the alpha geeks, sharing their stories, helping the future unfold.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/273666684/green_7699_Twitter_crop_normal.jpg</profile_image_url>
+    <url>http://radar.oreilly.com</url>
+    <protected>false</protected>
+    <followers_count>650556</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>559</friends_count>
+    <created_at>Tue Mar 27 01:14:05 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>12600</utc_offset>
+    <time_zone>Tehran</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3587880/notes.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>7347</statuses_count>
+    <notifications>false</notifications>
+    <verified>true</verified>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Fri Jun 26 17:33:07 +0000 2009</created_at>
+  <id>2346973562</id>
+  <text>First draft of open 311 api http://bit.ly/13wk9K (Via @seeclickfix) Programmatic way to talk TO local govt. Impt &quot;gov as platform&quot; initiativ</text>
+  <source>&lt;a href=&quot;http://desktop.seesmic.com/&quot;&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>2384071</id>
+    <name>Tim O'Reilly</name>
+    <screen_name>timoreilly</screen_name>
+    <location>Sebastopol, CA</location>
+    <description>Founder and CEO, O'Reilly Media. Watching the alpha geeks, sharing their stories, helping the future unfold.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/273666684/green_7699_Twitter_crop_normal.jpg</profile_image_url>
+    <url>http://radar.oreilly.com</url>
+    <protected>false</protected>
+    <followers_count>650363</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>559</friends_count>
+    <created_at>Tue Mar 27 01:14:05 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>12600</utc_offset>
+    <time_zone>Tehran</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3587880/notes.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>7346</statuses_count>
+    <notifications>false</notifications>
+    <verified>true</verified>
+    <following>false</following>
+  </user>
+</status>
+</statuses>
