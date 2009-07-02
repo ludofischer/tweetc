@@ -1,7 +1,7 @@
 CC = gcc
-CFLAGS = -O2 -Wall -Wextra -std=c99 -pedantic
-LDFLAGS = -lcurl -lssl -lcrypto -lrt -lssl -lcrypto -ldl -lz -lz
-OBJECTS = main.o twitter-actions.o access-url.o url-encode.o authorization-password.o
+CFLAGS = -O2 -Wall -Wextra -std=c99 -pedantic -I /usr/include/libxml2
+LDFLAGS = -lcurl -lssl -lcrypto -lrt -ldl -lz -lxml2 -lm
+OBJECTS = main.o twitter-actions.o access-url.o url-encode.o authorization-password.o xml.o
 
 ctweet : $(OBJECTS)
 	$(CC) -o ctweet $(LDFLAGS) $(OBJECTS)
