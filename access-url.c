@@ -1,6 +1,9 @@
 #include <curl/curl.h>
 #include <stdio.h>
 #include "access-url.h"
+#include "xml.h"
+
+static char *saved_data;
 
 static int
 init_update(CURL *curl, char *username_password, char *status_update) {
@@ -19,6 +22,8 @@ init_friends_timeline(CURL *curl, char *username_password) {
     const char *friends_timeline_url = "https://twitter.com/statuses/friends_timeline.xml";
     res = curl_easy_setopt(curl, CURLOPT_URL, friends_timeline_url);
     res = curl_easy_setopt(curl, CURLOPT_USERPWD, username_password);
+    res = curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writer);
+    res = curl_easy_setopt(curl, CURLOPT_WRITEDATA, saved_data); 
     return 0;
 }
     
