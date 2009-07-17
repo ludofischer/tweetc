@@ -55,14 +55,8 @@ parse_friends_timeline(char *data, int size) {
 
 size_t
 writer(char *data, size_t size, size_t nmemb, char *writer_data) {
-    char *buffer = malloc(strlen(writer_data) + size * nmemb + 1);
-    if (!buffer) {
-        return 0;
-    }
+
     parse_friends_timeline(data, size * nmemb);
 
-    strcpy(buffer, writer_data);
-    strncat(buffer, data, size*nmemb);
-    writer_data = buffer;
     return size * nmemb;
 }
