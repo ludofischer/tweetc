@@ -39,7 +39,7 @@ my_end_element(void *ctx, const xmlChar *name) {
     *state = NO_PRINT;
 }
 
-int
+size_t
 writer(char *data, size_t size, size_t nmemb, char *writer_data) {
     char *buffer = malloc(strlen(writer_data) + size * nmemb + 1);
     if (!buffer) {
