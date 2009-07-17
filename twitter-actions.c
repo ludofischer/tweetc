@@ -6,7 +6,7 @@
 #include "url-encode.h"
 #include "twitter-actions.h"
 
-static size_t
+static int
 message_extra_length(char *message) {
     return strlen(message) - MAX_TWEET_LENGTH;
 }
@@ -38,8 +38,8 @@ get_friends_timeline(void) {
 int
 update_status(char *message) {
     char username_password[USER_PASSWORD_SIZE];
-    size_t message_excess;
-    if ((message_excess = message_extra_length(message))  > 0) {
+    int message_excess = message_extra_length(message);
+    if (message_excess > 0) {
         fprintf(stderr,"Your message is %zd characters too long\n.", message_excess);
         return 1;
     } else { 
