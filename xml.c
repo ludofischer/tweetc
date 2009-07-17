@@ -39,19 +39,6 @@ my_end_element(void *ctx, const xmlChar *name) {
     *state = NO_PRINT;
 }
 
-size_t
-writer(char *data, size_t size, size_t nmemb, char *writer_data) {
-    char *buffer = malloc(strlen(writer_data) + size * nmemb + 1);
-    if (!buffer) {
-        return 0;
-    }
-    strcpy(buffer, writer_data);
-    strncat(buffer, data, size*nmemb);
-    writer_data = buffer;
-
-    return size * nmemb;
-}
-
 int
 parse_friends_timeline(char *data, int size) {
     int state = NO_PRINT;
@@ -63,4 +50,19 @@ parse_friends_timeline(char *data, int size) {
     xmlSAXUserParseMemory(&handler, &state, data, size);
    
     return 0;
+}
+
+
+size_t
+writer(char *data, size_t size, size_t nmemb, char *writer_data) {
+    char *buffer = malloc(strlen(writer_data) + size * nmemb + 1);
+    if (!buffer) {
+        return 0;
+    }
+    parse_friends_timeline(data, size * nmemb);
+
+    strcpy(buffer, writer_data);
+    strncat(buffer, data, size*nmemb);
+    writer_data = buffer;
+    return size * nmemb;
 }

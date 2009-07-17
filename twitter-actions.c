@@ -40,7 +40,7 @@ update_status(char *message) {
     char username_password[USER_PASSWORD_SIZE];
     int message_excess = message_extra_length(message);
     if (message_excess > 0) {
-        fprintf(stderr,"Your message is %zd characters too long\n.", message_excess);
+        fprintf(stderr,"Your message is %d characters too long\n.", message_excess);
         return 1;
     } else { 
         get_credentials(username_password);
