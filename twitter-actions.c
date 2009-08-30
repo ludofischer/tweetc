@@ -33,10 +33,12 @@ prepare_message(char *message) {
     const char *status_prefix = STATUS_PREFIX;
     char *status_string = NULL;
     message = url_encode(message);
-    status_string = calloc(strlen(message) + strlen(status_prefix) + 1, sizeof(char));
-
-    strncat(status_string, status_prefix, STATUS_PREFIX_LENGTH);
-    strncat(status_string, message, strlen(status_string) - STATUS_PREFIX_LENGTH);
+    status_string = calloc(strlen(message) + STATUS_PREFIX_LENGTH + 1, sizeof(char));
+    if (status_string == NULL) {
+        exit(EXIT_FAILURE);
+    }
+    strcat(status_string, status_prefix);
+    strcat(status_string, message);
     free(message);
     return status_string;
 }
